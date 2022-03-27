@@ -1,0 +1,54 @@
+// ( •̀ ω •́ )✧ While
+// Enquanto uma expressão for verdadeira, uma série de instruções será executada de forma repetida.
+<?php
+
+ $i = 2;
+ while ($i <= 20) {
+ echo $i;
+ $i+=2;
+ echo "\n";
+ }
+ 
+/*Sintaxe alternativa*/
+ $i = 2;
+ while ($i <= 20):
+ echo $i;
+ $i+=2;
+ echo "\n";
+ endwhile;
+
+// ( •̀ ω •́ )✧ Do-while
+// A verificação, aqui, é feita ao final. Com isso, a primeira instrução dentro do laço sempre será executada. 
+?php
+
+ $i = 2;
+ do {
+ echo $i;
+ $i+=2;
+ echo "\n";
+ }while ($i <= 20);
+
+// ( •̀ ω •́ )✧ For
+
+<?php
+
+ for ($i = 1; $i <= 20; $i++) {
+ echo $i;
+ echo "\n";
+ }
+
+// ( •̀ ω •́ )✧ Foreach
+// Esse laço é parecido com o for, possuindo uma sintaxe mais simples e sendo muito propício para realizar interações em arrays.
+
+<?php
+ $carros = Array("Fusca", "Monza", "Passat");
+
+ foreach($carros as $carro){
+ echo $carro;
+ echo "\n";
+ }
+
+ for ($i = 0; $i < count($carros); $i++) {
+ echo $carros[$i];
+ echo "\n";
+ }
