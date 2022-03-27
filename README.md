@@ -110,3 +110,6 @@ PDO_SQLSRV   ➡️  Microsoft SQL Server / SQL Azure</br>
 PDO_4D	   ➡️  4D</br>
 </br>
 CONEXÃO COM O SGBD UTILIZANDO PDO</br>
+
+          $dsn = new PDO("mysql:host=localhost;dbname=test", $user, $pass);
+          $dsn = new PDO("pgsql:host=localhost;dbname=test"; $user, $pass);
