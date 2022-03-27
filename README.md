@@ -81,53 +81,13 @@ Já a variável $var4 possui o conteúdo "Copie esses códigos"
 */
 
 Operadores de comparação
-<table>
-<thead>
-  <tr>
-    <th>==</th>
-    <th>$var1 == $var2</th>
-    <th></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>===</td>
-    <td>$var1 === $var2</td>
-    <td>Verifica se $var1 é idêntica a $var2. Nesse caso, além do valor, verifica se ambas são do mesmo tipo</td>
-  </tr>
-  <tr>
-    <td>!=</td>
-    <td>$var1 != $var2</td>
-    <td rowspan="2">Verifica se $var1 é diferente de $var2</td>
-  </tr>
-  <tr>
-    <td>&lt;&gt;</td>
-    <td>$var1 &lt;&gt; $var2</td>
-  </tr>
-  <tr>
-    <td>!==</td>
-    <td>$var1 !== $var2</td>
-    <td>Verifica se não são idênticas/iguais ou se não são do mesmo tipo</td>
-  </tr>
-  <tr>
-    <td>&lt;</td>
-    <td>$var1 &lt; $var2</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>&gt;</td>
-    <td>$var1 &gt; $var2</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>&lt;=</td>
-    <td>$var1 &lt;= $var2</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>&gt;=</td>
-    <td>$var1 &gt;= $var2</td>
-    <td></td>
-  </tr>
-</tbody>
-</table>
+| ==  | $var1 == $var2  |                                                                                                      |
+|-----|-----------------|------------------------------------------------------------------------------------------------------|
+| === | $var1 === $var2 | Verifica se $var1 é idêntica a $var2. Nesse caso, além do valor, verifica se ambas são do mesmo tipo |
+| !=  | $var1 != $var2  | Verifica se $var1 é diferente de $var2                                                               |
+| <>  | $var1 <> $var2  |                                                                                                      |
+| !== | $var1 !== $var2 | Verifica se não são idênticas/iguais ou se não são do mesmo tipo                                     |
+| <   | $var1 < $var2   |                                                                                                      |
+| >   | $var1 > $var2   |                                                                                                      |
+| <=  | $var1 <= $var2  |                                                                                                      |
+| >=  | $var1 >= $var2  |                                                                                                      |
