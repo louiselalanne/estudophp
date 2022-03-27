@@ -81,22 +81,45 @@ Já a variável $var4 possui o conteúdo "Copie esses códigos"
 */
 
 Operadores de comparação
-|  == |$var1 == $var2  |Verifica se $var1 é igual a $var2          |
-|-----|----------------|-------------------------------------------|
-| === |$var1 === $var2 |Verifica se $var1 é idêntica a $var2. Nesse| 
-|     |                | caso, além do valor, verifica se ambas são|
-|     |                |                              do mesmo tipo|
-|-----|----------------|-------------------------------------------|
-| !=  |$var1 != $var2  |Verifica se $var1 é diferente de $var2     |
-|-----|----------------|                                           |
-|-----|----------------|-------------------------------------------|
-| !== |$var1 !== $var2 |Verifica se não são idênticas/iguais ou se não são do mesmo tipo|
-|-----|----------------|-------------------------------------------|
-| <   |$var1 < $var2   |Verifica se $var1 é menor que $var2|
-|-----|----------------|-------------------------------------------|
-| >   |$var1 > $var2   |Verifica se $var1 é maior que $var2|
-|-----|----------------|-------------------------------------------|
-| <=  |$var1 <= $var2  |Verifica se $var1 é menor ou igual a $var2|
-|-----|----------------|-------------------------------------------|
-| >=  |	|$var1 >= $var2  |	|Verifica se $var1 é maior ou igual a $var2|
-|-----|----------------|-------------------------------------------|
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky"></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+</tbody>
+</table>
