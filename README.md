@@ -80,7 +80,7 @@ No exemplo acima o conteúdo da variável $var3 é igual a "Copie esses códigos
 Já a variável $var4 possui o conteúdo "Copie esses códigos"
 */
 
-<h3>Operadores de comparação<h3></br>
+<h3>Operadores de comparação</h3></br></br>
 +-----+-----------------+------------------------------------------------------------------------------------------------------+</br>
 | ==  | $var1 == $var2  |                                                                                                      |</br>
 +-----+-----------------+------------------------------------------------------------------------------------------------------+</br>
