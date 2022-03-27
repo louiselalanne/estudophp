@@ -1,0 +1,70 @@
+//づ￣3￣）づ╭❤️～Permite diferentes formas de declarar e atribuir valores em um array.
+
+<?php
+//Declarando um array vazio
+$carros = array();
+
+//Primeira forma de declaração e atribuição de valores
+$carros = Array("Fusca", "Monza", "Passat");
+
+//Segunda forma de declaração e atribuição de valores
+//Esta forma é semelhante à anterior, mas utilizando sintaxe similar a do Javascript
+$carros = ["Fusca", "Monza", "Passat"];
+
+//Terceira forma de declaração e atribuição de valores
+$carros[0] = "Fusca";
+$carros[1] = "Monza";
+$carros[2] = "Passat";
+
+//Quarta forma de declaração e atribuição de valores
+$carros[] = "Fusca";
+$carros[] = "Monza";
+$carros[] = "Passat";
+
+//づ￣3￣）づ╭❤️～Vetores associativos. Repare que a principal diferença é a utilização de strings no lugar de números para definir os seus índices.
+
+<?php
+ //Primeira forma
+ $carros = array (
+ 'vw'        => "Fusca",
+ 'chevrolet' => "Monza",
+ 'fiat'      => "Tempra"
+  );
+ 
+  //Segunda forma
+ $carros = [
+ 'vw'        => "Fusca",
+ 'chevrolet' => "Monza",
+ 'fiat'      => "Tempra"
+ ];
+ //Terceira forma
+ $carros['vw']        = "Fusca";
+ $carros['chevrolet'] = "Monza";
+ $carros['fiat']      = "Tempra";
+ 
+ */
+ Array com índices numéricos e associativos. Repare que a sintaxe é parecida com a vista na declaração dos associativos,
+ ou seja, cada par “índice/valor” é separado por ‘=>’.
+ /*
+ 
+  <?php
+ $carros = array (
+ 'vw'        => "Fusca",
+ 0           => "Passat",
+ 'chevrolet' => "Monza",
+ 1           => "Chevette",
+ 'fiat'      => "Tempra",
+ 2           => "Uno"
+ );
+ 
+ */
+ As formas vistas nos exemplos anteriores são as mais simples para a criação e inserção de elementos.
+ Entretanto, a linguagem oferece outras formas, através do uso de funções como a array_push (que adiciona elementos ao final de um array)
+ e a array_unshifit (adiciona elementos no início de um array).
+ 
+ 
+ づ￣3￣）づ╭❤️～ Remoção de elementos de um array
+ 
+ uso de duas funções: unset e array_splice.
+ /*
+ 
