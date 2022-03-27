@@ -19,11 +19,16 @@ essas três variáveis têm a mesma função, ou seja, receber dados proveniente
 
 🐘 GET - Utilizado na requisição e na recuperação de recursos de um servidor, como uma página ou um arquivo, entre outros.
 exemplo: /endereco_servidor/script.php?var1=value1&var2=value2&var3=value3
+
 **Em linhas gerais, não deve ser utilizado quando estamos lidando com informações sensíveis, uma vez que a query string fica visível na barra de endereços do navegador. Outra característica importante desse método é que ele pode ser usado a partir de formulários HTML.**
 
 🐘 HEAD
 
 🐘 POST - Usado no envio de dados para o servidor a fim de criar ou atualizar um recurso.
+exemplo:  POST /endereco_servidor/script.php
+          Host: dominio.com.br
+          var1=value1&var2=value2&var3=value3
+**Assim como o GET, esse método pode ser utilizado em formulários HTML, com a vantagem de não deixar os dados transmitidos visíveis na barra de endereços do navegador – embora seja possível acessá-los analisando a requisição em si.**
 
 🐘 PUT
 
@@ -36,3 +41,7 @@ exemplo: /endereco_servidor/script.php?var1=value1&var2=value2&var3=value3
 🐘 TRACE
 
 🐘 PATCH
+
+<h2>Variável $_GET</h2>
+  Array associativo que contém as variáveis recebidas de métodos HTTP GET.
+  
