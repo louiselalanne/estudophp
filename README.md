@@ -82,3 +82,7 @@ Já a variável $var4 possui o conteúdo "Copie esses códigos"
 
 <h3>Operadores de comparação</h3></br></br>
 <table><thead><tr><th>==</th><th>$var1 == $var2</th><th></th></tr></thead><tbody><tr><td>===</td><td>$var1 === $var2</td><td>Verifica se $var1 é idêntica a $var2. Nesse caso, além do valor, verifica se ambas são do mesmo tipo</td></tr><tr><td>!=</td><td>$var1 != $var2</td><td>Verifica se $var1 é diferente de $var2</td></tr><tr><td>&lt;&gt;</td><td>$var1 &lt;&gt; $var2</td><td></td></tr><tr><td>!==</td><td>$var1 !== $var2</td><td>Verifica se não são idênticas/iguais ou se não são do mesmo tipo</td></tr><tr><td>&lt;</td><td>$var1 &lt; $var2</td><td></td></tr><tr><td>&gt;</td><td>$var1 &gt; $var2</td><td></td></tr><tr><td>&lt;=</td><td>$var1 &lt;= $var2</td><td></td></tr><tr><td>&gt;=</td><td>$var1 &gt;= $var2</td><td></td></tr></tbody></table>
+
+<h3>Operadores lógicos</h3></br></br>
+<table><thead><tr><th>and</th><th>$var1 and $var2</th><th>Retorna true se $var1 E $var2 forem verdadeiras</th></tr></thead><tbody><tr><td>or</td><td>$var1 or $var2</td><td>Retorna true se $var1 OU $var2 forem verdadeiras</td></tr><tr><td>xor</td><td>$var1 xor $var2</td><td>Retorna true se $var1 OU $var2 forem verdadeiras, mas não ambas</td></tr><tr><td>!</td><td>!$var2</td><td>Retorna true se $var1 não for verdadeira</td></tr><tr><td>&amp;&amp;</td><td>$var1 &amp;&amp; $var2</td><td>Retorna true se $var1 E $var2 forem verdadeiras</td></tr><tr><td>||</td><td>$var1 || $var2</td><td>Retorna true se $var1 OU $var2 forem verdadeiras</td></tr></tbody></table>
+
