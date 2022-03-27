@@ -92,19 +92,21 @@ Constantes >> DEFINE</br>
 Variáveis >> $</br>
 Estruturas de decisão e repetição >> do-while, for e foreach.</br>
 
-# PDO
-Trata-se de uma interface leve para acesso a bancos de dados em PHP. Nesse sentido, cabe a cada banco de dados implementar a interface PDO.
-
-DRIVERS PDO
-PDO_CUBRID   ➡️ Cubrid
-PDO_DBLIB	   ➡️ FreeTDS / Microsoft SQL Server / Sybase
-PDO_FIREBIRD ➡️ Firebird
-PDO_IBM      ➡️  IBM DB2
-PDO_INFORMIX ➡️  IBM Informix Dynamic Server
-PDO_MYSQL	   ➡️  MySQL 3.x/4.x/5.x
-PDO_OCI	   ➡️  Oracle Call Interface
-PDO_ODBC	   ➡️  ODBC v3 (IBM DB2, unixODBC e win32 ODBC)
-PDO_PGSQL	   ➡️  PostgreSQL
-PDO_SQLITE   ➡️  SQLite 3 e SQLite 2
-PDO_SQLSRV   ➡️ Microsoft SQL Server / SQL Azure
-PDO_4D	   ➡️  4D
+<h4>PDO<h4>
+Trata-se de uma interface leve para acesso a bancos de dados em PHP. Nesse sentido, cabe a cada banco de dados implementar a interface PDO.</br>
+</br>
+DRIVERS PDO</br>
+PDO_CUBRID   ➡️  Cubrid</br>
+PDO_DBLIB	   ➡️  FreeTDS / Microsoft SQL Server / Sybase</br>
+PDO_FIREBIRD ➡️  Firebird</br>
+PDO_IBM      ➡️  IBM DB2</br>
+PDO_INFORMIX ➡️  IBM Informix Dynamic Server</br>
+PDO_MYSQL	   ➡️  MySQL 3.x/4.x/5.x</br>
+PDO_OCI	   ➡️  Oracle Call Interface</br>
+PDO_ODBC	   ➡️  ODBC v3 (IBM DB2, unixODBC e win32 ODBC)</br>
+PDO_PGSQL	   ➡️  PostgreSQL</br>
+PDO_SQLITE   ➡️  SQLite 3 e SQLite 2</br>
+PDO_SQLSRV   ➡️  Microsoft SQL Server / SQL Azure</br>
+PDO_4D	   ➡️  4D</br>
+</br>
+CONEXÃO COM O SGBD UTILIZANDO PDO</br>
