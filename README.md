@@ -45,3 +45,58 @@ exemplo:  POST /endereco_servidor/script.php
 <h2>Variável $_GET</h2>
   Array associativo que contém as variáveis recebidas de métodos HTTP GET.
   
+exemplo: <?php
+
+          //Requisição GET: /endereco_servidor/script.php?var1=value1&var2=value2&var3=value3
+
+          echo $_GET['var1']; //imprimiria value1
+          echo $_GET['var2']; //imprimiria value2
+          echo $_GET['var3']; //imprimiria value3
+
+<H2>Variável $_POST</H2>
+A exemplo de $_GET, a variável predefinida $_POST também é um array associativo. Entretanto, ela contém as variáveis recebidas através de métodos POST.
+
+<h2>Variável $_REQUEST</h2>
+É considerada "coringa", uma vez que exerce múltiplos papéis. Com ela, é possível receber tanto variáveis provenientes de métodos GET 
+quanto POST – e também do método cookies ($_COOKIE).
+
+Sua utilização é semelhante ao que foi visto em $_GET e $_POST.
+
+<h2>Operadores</h2>
+“+”, “-“, “*”, “/”,"%" e "**"(exponenciação).
+
+<?php
+
+$var1 = 4; //a variável foi inicializada com o valor de 4
+$var1 += 2; //com a utilização da combinação de operadores a variável $var1 passou a ter o valor de 6 (4 + 2)
+$var1 *= 2; //com a utilização da combinação de operadores a variável $var1 passou a ter o valor de 12 (4 + 2) * 2
+
+$var2 = "Programação";
+$var2 .= " com PHP"; //com a utilização da combinação de operadores a variável $var2 passou a ter o conteúdo "Programação com PHP"
+
+$var = ($var4 = "Copie esses códigos") . " e pratique seus conhecimentos!" ;
+/*
+No exemplo acima o conteúdo da variável $var3 é igual a "Copie esses códigos e pratique seus conhecimentos!"
+Já a variável $var4 possui o conteúdo "Copie esses códigos"
+*/
+
+Operadores de comparação
+|  == |$var1 == $var2  |Verifica se $var1 é igual a $var2          |
+|-----|----------------|-------------------------------------------|
+| === |$var1 === $var2 |Verifica se $var1 é idêntica a $var2. Nesse| 
+|     |                | caso, além do valor, verifica se ambas são|
+|     |                |                              do mesmo tipo|
+|-----|----------------|-------------------------------------------|
+| !=  |$var1 != $var2  |Verifica se $var1 é diferente de $var2     |
+|-----|----------------|                                           |
+|-----|----------------|-------------------------------------------|
+| !== |$var1 !== $var2 |Verifica se não são idênticas/iguais ou se não são do mesmo tipo|
+|-----|----------------|-------------------------------------------|
+| <   |$var1 < $var2   |Verifica se $var1 é menor que $var2|
+|-----|----------------|-------------------------------------------|
+| >   |$var1 > $var2   |Verifica se $var1 é maior que $var2|
+|-----|----------------|-------------------------------------------|
+| <=  |$var1 <= $var2  |Verifica se $var1 é menor ou igual a $var2|
+|-----|----------------|-------------------------------------------|
+| >=  |	|$var1 >= $var2  |	|Verifica se $var1 é maior ou igual a $var2|
+|-----|----------------|-------------------------------------------|
