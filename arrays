@@ -68,3 +68,61 @@ $carros[] = "Passat";
  uso de duas funções: unset e array_splice.
  /*
  
+<?php
+  $carros = array (
+  'vw'        => "Fusca",
+  0           => "Passat",
+ 'chevrolet' => "Monza",
+ 1           => "Chevette",
+ 'fiat'      => "Tempra",
+ 2           => "Uno"
+ );
+ print_r($carros);
+echo "O tamanho atual do array é: " . count($carros);
+ echo "\n\n";
+ //Definindo o valor do índice 0 como vazio
+$carros[0] = '';
+
+ print_r($carros);
+ echo "O tamanho atual do array é: " . count($carros);
+ echo "\n\n";
+
+ //Removendo dois elementos do array com unset
+ unset($carros['fiat'], $carros[1]);
+
+ print_r($carros);
+ echo "O tamanho atual do array é: " . count($carros);
+ echo "\n\n";
+
+ //Removendo elementos do array com array_splice
+ array_splice($carros, 1,2);
+
+ print_r($carros);
+ echo "O tamanho atual do array é: " . count($carros);
+ 
+ */
+ Observações:
+ COUNT - retorna o tamanho (quantidade de elementos) de um array.
+ unset - Recebe como parâmetro o array e índice ou índices que desejamos remover.
+ ARRAY_SPLICE - ecebe como parâmetros o array a ser manipulado, o offset (índice a partir do qual desejamos excluir elementos) e o length (quantidade de itens que queremos excluir).
+ 
+ Praticando:
+ /*
+ 
+ Array
+(
+[vermelhas] => Array
+(
+[0] => melancia
+[1] => cereja
+[2] => framboesa
+[3] => morango
+)
+[citricas] => Array
+(
+[0] => laranja
+[1] => limão
+[2] => abacaxi
+[3] => mexerica
+)
+)
