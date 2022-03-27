@@ -53,7 +53,7 @@ exemplo: <?php
           echo $_GET['var2']; //imprimiria value2
           echo $_GET['var3']; //imprimiria value3
 
-<H2 align="center">Variável $_POST</H2>
+<h2 align="center">Variável $_POST</h2>
 A exemplo de $_GET, a variável predefinida $_POST também é um array associativo. Entretanto, ela contém as variáveis recebidas através de métodos POST.
 
 <h2 align="center">Variável $_REQUEST</h2>
@@ -86,8 +86,8 @@ Já a variável $var4 possui o conteúdo "Copie esses códigos"
 <h3 align="center">Operadores lógicos</h3></br></br>
 <table><thead><tr><th>and</th><th>$var1 and $var2</th><th>Retorna true se $var1 E $var2 forem verdadeiras</th></tr></thead><tbody><tr><td>or</td><td>$var1 or $var2</td><td>Retorna true se $var1 OU $var2 forem verdadeiras</td></tr><tr><td>xor</td><td>$var1 xor $var2</td><td>Retorna true se $var1 OU $var2 forem verdadeiras, mas não ambas</td></tr><tr><td>!</td><td>!$var2</td><td>Retorna true se $var1 não for verdadeira</td></tr><tr><td>&amp;&amp;</td><td>$var1 &amp;&amp; $var2</td><td>Retorna true se $var1 E $var2 forem verdadeiras</td></tr><tr><td>||</td><td>$var1 || $var2</td><td>Retorna true se $var1 OU $var2 forem verdadeiras</td></tr></tbody></table>
 
-<h3 align="center">Integração do PHP com banco de Dados</h3>
-
-Constantes >> DEFINE
-Variáveis >> $
-Estruturas de decisão e repetição >> do-while, for e foreach.
+<h3 align="center">Integração do PHP com banco de Dados</h3></br>
+</br>
+Constantes >> DEFINE</br>
+Variáveis >> $</br>
+Estruturas de decisão e repetição >> do-while, for e foreach.</br>
