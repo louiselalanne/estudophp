@@ -92,7 +92,7 @@ Constantes >> DEFINE</br>
 Variáveis >> $</br>
 Estruturas de decisão e repetição >> do-while, for e foreach.</br>
 
-<h4>PDO<h4>
+<h4>PDO</h4>
 Trata-se de uma interface leve para acesso a bancos de dados em PHP. Nesse sentido, cabe a cada banco de dados implementar a interface PDO.</br>
 </br>
 DRIVERS PDO</br>
