@@ -86,8 +86,25 @@ Já a variável $var4 possui o conteúdo "Copie esses códigos"
 <h3 align="center">Operadores lógicos</h3></br></br>
 <table><thead><tr><th>and</th><th>$var1 and $var2</th><th>Retorna true se $var1 E $var2 forem verdadeiras</th></tr></thead><tbody><tr><td>or</td><td>$var1 or $var2</td><td>Retorna true se $var1 OU $var2 forem verdadeiras</td></tr><tr><td>xor</td><td>$var1 xor $var2</td><td>Retorna true se $var1 OU $var2 forem verdadeiras, mas não ambas</td></tr><tr><td>!</td><td>!$var2</td><td>Retorna true se $var1 não for verdadeira</td></tr><tr><td>&amp;&amp;</td><td>$var1 &amp;&amp; $var2</td><td>Retorna true se $var1 E $var2 forem verdadeiras</td></tr><tr><td>||</td><td>$var1 || $var2</td><td>Retorna true se $var1 OU $var2 forem verdadeiras</td></tr></tbody></table>
 
-<h3 align="center">Integração do PHP com banco de Dados</h3></br>
+<h3 align="center">Integração do PHP com banco de Dados</h3>
 </br>
 Constantes >> DEFINE</br>
 Variáveis >> $</br>
 Estruturas de decisão e repetição >> do-while, for e foreach.</br>
+
+# PDO
+Trata-se de uma interface leve para acesso a bancos de dados em PHP. Nesse sentido, cabe a cada banco de dados implementar a interface PDO.
+
+DRIVERS PDO
+PDO_CUBRID   ➡️ Cubrid
+PDO_DBLIB	   ➡️ FreeTDS / Microsoft SQL Server / Sybase
+PDO_FIREBIRD ➡️ Firebird
+PDO_IBM      ➡️  IBM DB2
+PDO_INFORMIX ➡️  IBM Informix Dynamic Server
+PDO_MYSQL	   ➡️  MySQL 3.x/4.x/5.x
+PDO_OCI	   ➡️  Oracle Call Interface
+PDO_ODBC	   ➡️  ODBC v3 (IBM DB2, unixODBC e win32 ODBC)
+PDO_PGSQL	   ➡️  PostgreSQL
+PDO_SQLITE   ➡️  SQLite 3 e SQLite 2
+PDO_SQLSRV   ➡️ Microsoft SQL Server / SQL Azure
+PDO_4D	   ➡️  4D
