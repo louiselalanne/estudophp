@@ -81,45 +81,53 @@ Já a variável $var4 possui o conteúdo "Copie esses códigos"
 */
 
 Operadores de comparação
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table>
 <thead>
   <tr>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
-    <th class="tg-0pky"></th>
+    <th>==</th>
+    <th>$var1 == $var2</th>
+    <th></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td>===</td>
+    <td>$var1 === $var2</td>
+    <td>Verifica se $var1 é idêntica a $var2. Nesse caso, além do valor, verifica se ambas são do mesmo tipo</td>
   </tr>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td>!=</td>
+    <td>$var1 != $var2</td>
+    <td rowspan="2">Verifica se $var1 é diferente de $var2</td>
   </tr>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td>&lt;&gt;</td>
+    <td>$var1 &lt;&gt; $var2</td>
+  </tr>
+  <tr>
+    <td>!==</td>
+    <td>$var1 !== $var2</td>
+    <td>Verifica se não são idênticas/iguais ou se não são do mesmo tipo</td>
+  </tr>
+  <tr>
+    <td>&lt;</td>
+    <td>$var1 &lt; $var2</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&gt;</td>
+    <td>$var1 &gt; $var2</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&lt;=</td>
+    <td>$var1 &lt;= $var2</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>&gt;=</td>
+    <td>$var1 &gt;= $var2</td>
+    <td></td>
   </tr>
 </tbody>
 </table>
