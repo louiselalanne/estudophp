@@ -1,0 +1,25 @@
+<?php
+ $num1 = 10;
+ $num2 = 15;
+
+ $num3 = soma($num1,$num2);
+ imprimir_resultado($num3);
+
+
+ function soma($numero1, $numero2)
+{
+ return $numero1 + $numero2;
+ }
+ function imprimir_resultado($numero)
+ {
+ echo "O resultado da operação é igual a: " . $numero;
+ }
+ 
+ - Palavra reservada “function” seguida do nome da função.
+ - Nome da função seguido de parênteses – “()”. Caso receba parâmetros, eles deverão ser declarados dentro dos parênteses. Do contrário, deverão ficar sem conteúdo.
+ - Instruções da função envoltas em chaves – “{}”.
+ 
+ As funções em PHP podem ou não retornar resultados. A primeira delas, “soma”, através do operador “return”, devolve o resultado da soma entre os dois
+ parâmetros recebidos. Repare que a variável “$num3” recebe justamente esse resultado. Já a função “imprimir_resultado” não retorna valores, apenas imprimindo
+ uma frase na tela.
+ 
